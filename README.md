@@ -7,6 +7,7 @@ El sitio puede verse funcionando en [este link](https://waltermolina.github.io/a
 **Nota:** algunos detalles pueden no estar funcionando, ya que el sitio está fuera de mantenimiento.
 _____
 Diseño y desarrollo: [Walter Molina](https://github.com/waltermolina)
+
 Copywriting y selección de multimedia: [Tatiana Hotimsky](https://github.com/tatianahotimsky)
 _______
 ![by tachuso](https://raw.githubusercontent.com/waltermolina/anabelrobledo-html5/master/tachusoVioleta50.png)
