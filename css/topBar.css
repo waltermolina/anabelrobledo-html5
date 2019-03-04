@@ -1,0 +1,172 @@
+.topBar {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;	
+    height: 50px !important;
+    background: #000;
+    background: rgb(34,34,34);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,34,34,1)), color-stop(100%,rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(34,34,34,1) 0%,rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(34,34,34,1) 0%,rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(34,34,34,1) 0%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(34,34,34,1) 0%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#000000',GradientType=0 );
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+.topBar > a > #logo {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 50px;
+    width: 220px;
+    padding: 10px;
+    margin: 0em 0em 0em 3em;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.topBar > a > #logo > img {
+    height: 30px;
+    width: auto;
+    float: left;
+    margin: 0 10px 0 0;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+.topBar > a > #logo > #logoText {
+    color: #eee;
+    font-size: 2.6em;
+    text-align: left;
+    line-height: 3rem;
+    float: left;
+}
+.topBar > #topMenu {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 1em 3em 1em 1em;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    float: right;
+    margin: 0em 3em 0em 0em !important;
+}
+
+#menuToggle{ display: none; cursor: pointer; }
+
+
+@media screen and (orientation:portrait) {
+    #logo{ width: 200px; margin-left: 1rem; }
+    .topBar > a > #logo{ margin-left: 1rem; }
+    #topMenu{ margin-right: 1rem; }
+    .topBar > #topMenu{ margin-right: 1rem; }
+}
+
+@media screen and (max-width: 600px){
+    #siteHeader, .topBar{
+        height: 50px !important;
+        background: #000;
+        background: rgb(34,34,34);
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,34,34,1)), color-stop(100%,rgba(0,0,0,1)));
+        background: -webkit-linear-gradient(top, rgba(34,34,34,1) 0%,rgba(0,0,0,1) 100%);
+        background: -o-linear-gradient(top, rgba(34,34,34,1) 0%,rgba(0,0,0,1) 100%);
+        background: -ms-linear-gradient(top, rgba(34,34,34,1) 0%,rgba(0,0,0,1) 100%);
+        background: linear-gradient(to bottom, rgba(34,34,34,1) 0%,rgba(0,0,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#000000',GradientType=0 );
+        box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+        -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        z-index: 1000;
+        position: relative;
+        top: 0;
+        width: 100%;
+        transition: all 0.6s;
+        -webkit-transition: all 0.6s;
+        -o-transition: all 0.6s;
+    }
+    #logo, .topBar > a > #logo{
+        display: block;
+        float: left;
+        width: 180px !important;        
+        height: 50px !important;
+        padding: 10px !important;
+        margin: 0em 0em 0em 0.2em !important;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;        
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        background: transparent !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+    #logo > #logoText, .topBar > a > #logo > #logoText {
+        font-size: 2.6em;
+        text-align: left;
+        font-family: 'Signika Negative', sans-serif;
+        color: #eee;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    #logo > img , .topBar > a > #logo > img {
+        height: 30px !important;
+        width: auto !important;
+        float: left !important;
+        margin: 0 10px 0 0;
+    }
+    #menuToggle {
+        display: block;
+        float: right;        
+        height: 50px;
+        padding: 0 1rem;
+        line-height: 50px;
+        font-size: 1.6rem;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        z-index: 100;
+    }
+    #menuToggle.active { background: #555; }
+    #topMenu{ display: none;}
+    #topMenu.active {
+        position: absolute;
+        top: 50px;
+        display: block;
+        background: #555;
+        width: 100%;
+        margin: 0 !important;
+        box-sizing: border-box;
+        padding: 0;
+        box-shadow: 0 0 1rem 0.5rem rgba(0,0,0,0.4);
+        -moz-box-shadow: 0 0 1rem 0.5rem rgba(0,0,0,0.4);
+        -webkit-box-shadow: 0 0 1rem 0.5rem rgba(0,0,0,0.4);
+    }
+    #topMenu > a {
+        display: block;
+        margin: 0;
+        font-size: 1.2rem;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+}
+

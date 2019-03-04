@@ -1,0 +1,134 @@
+.leftGroup {
+    width: 25%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.rightGroup {
+    width: 74%;
+    margin-left: 1%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#contactForm input,
+#contactForm textarea {
+    outline: 0;
+    width: 100%;
+    float: left;
+    margin: 0 0 10px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 1.6rem;
+    color: #333;
+    box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,0.3);
+    font-family: 'Signika Negative', sans-serif;
+}
+#contactForm input:focus, #contactForm textarea:focus {
+    box-shadow: inset 0px 0px 10px 2px rgba(255,140,0,0.6);
+}
+
+.rightGroup textarea {
+    height: 160px;
+    max-height: 160px;
+    max-width: 100%;
+}
+.fullWidthGroup {
+    background: #8080ff;
+}
+.result {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px 10px;
+    height: 34px;
+    font-size: 1.4rem;
+    line-height: 24px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.result.warning{
+    background: #ffe691;
+    border: 1px solid #f6db7b;
+}
+.result.success{
+    background: #99ffb1;
+    border: 1px solid #7ce294;
+}
+
+.thirdWidth{ min-height: 140px; }
+
+.thirdWidth.social{
+    background: transparent;
+}
+.thirdWidth.social > .socialLink {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0px -5px 10px -7px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 0px -5px 10px -7px rgba(0,0,0,0.9);
+}
+.thirdWidth.social > .socialLink:last-child{
+    margin-bottom: 0px;
+} 
+.thirdWidth.social {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.thirdWidth.social > .socialLink > i {
+    height: 40px;
+    font-size: 2.4rem;
+    margin: 0;
+    display: block;
+    float: left;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+}
+.thirdWidth.social > .socialLink > span {
+    height: 40px;
+    margin: 0;
+    display: block;  
+    float: left;
+    line-height: 40px;    
+    padding: 0 20px 0 5px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.thirdWidth.social > .socialLink.facebook {
+    background: #3b5998;
+}
+.thirdWidth.social > .socialLink.twitter {
+    background: #08aced;
+}
+.thirdWidth.social > .socialLink.mail {
+    background: #333;
+}
+#offices {
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 600px){
+    .thirdWidth {
+        width: 49%;
+        margin: 0 1% 0 0;
+    }
+    .thirdWidth.social {
+        display: none;
+    }
+}
