@@ -1,0 +1,140 @@
+﻿/*Custom styles for modern buttons */
+/**/
+.no-margin-top {
+    margin-top: 0px !important;
+}
+
+.m-btn {
+    padding: 1rem;
+    min-width: inherit;
+    line-height: 2rem;
+}
+    .m-btn.dropdown-carettoggle {
+        min-width: 0.5rem;
+        height: auto;
+        padding: 1rem 1.4rem;
+    }
+
+
+
+    .m-btn.no-background {
+        background: none;
+        text-shadow: none;
+        box-shadow: none;
+    }
+    .m-btn.transparent {
+        background: transparent;
+        -webkit-text-shadow: #eee 0 1px 0;
+        text-shadow: #eee 0 1px 0;
+    }
+
+        .m-btn.transparent:hover, .m-btn.transparent:focus, .m-btn.transparent:active, .m-btn.transparent.active, .m-btn.transparent[disabled], .m-btn.transparent.disabled {
+            background-color: #F0713A;
+            background-image: linear-gradient(top,#FFD4C2,#F0713A);
+            background-repeat: repeat-x;
+            -webkit-text-shadow: none;
+            text-shadow: none;
+        }
+
+        .m-btn.transparent:hover {
+            background: transparent;
+            -webkit-text-shadow: #eee 0 1px 0, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff;
+            text-shadow: #eee 0 1px 0, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff;
+        }
+
+        .m-btn.transparent:active, .m-btn.transparent.active {
+            background: #FFA500;
+        }
+
+    .m-btn.transparent-white {
+        background: transparent;
+        -webkit-text-shadow: none;
+        text-shadow: none;
+        color: #fff;
+    }
+    .m-btn.transparent-white:hover, .m-btn.transparent-white:focus{
+        background: #222;
+    }
+        .m-btn.transparent-white:active, .m-btn.transparent-white.active {
+            background: #fff;
+            -webkit-text-shadow: none;
+            text-shadow: none;
+        }
+
+    .m-btn.transparent-black {
+        background: transparent;
+        -webkit-text-shadow: none;
+        text-shadow: none;
+        color: #222;
+    }
+    .m-btn.transparent-black:hover, .m-btn.transparent-black:focus{
+        background: rgba(0,0,0,0.7);
+        color: #fff;
+    }
+        .m-btn.transparent-black:active, .m-btn.transparent-black.active {
+            background: #222;
+            color: #fff;
+            -webkit-text-shadow: none;
+            text-shadow: none;
+        }
+
+.m-btn-group.open .dropdown-carettoggle.transparent-white, .m-btn-group.open .dropdown-toggle.transparent-white {
+    background: #fff;
+    color: #000;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.m-dropdown-menu {
+    max-width: none !important;
+    border: none !important;
+    -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.3) !important;
+    -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.3) !important;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3) !important;
+}
+
+    .m-dropdown-menu a {
+        padding: 6px 10px 6px 30px !important;
+    }
+
+    /*  Black */
+    /*.m-btn.black {
+    color: white;
+    text-shadow: none;
+    background-color: #000;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(top, #010101, #000);
+}
+
+    .m-btn.black:hover,
+    .m-btn.black:focus,
+    .m-btn.black:active,
+    .m-btn.black.active,
+    .m-btn.black[disabled],
+    .m-btn.black.disabled {
+        color: #fff;
+        background-color: #111;
+        background-repeat: repeat-x;
+    background-image: linear-gradient(top, #333, #333);
+}
+
+    .m-btn.black:active,
+    .m-btn.black.active {
+        background-color: #333;
+        background-repeat: repeat-x;
+    background-image: linear-gradient(top, #555, #333);
+}*/
+
+
+
+    /*aling dropdown menu to right (user menu)*/
+    .m-dropdown-menu.align-right {
+        right: 0;
+        left: auto;
+    }
+/*custom shadow for dropdown menu*/
+
+.m-btn.medium {
+    line-height: 1.2rem;
+}
